@@ -1186,7 +1186,7 @@ read_packet(capture_file *cf, dfilter_t *dfcode,
   //DIGITAL OPERATIVES ------------------------------------------>
 	int packetNumber;
 	int PID;
-	int processNameLength;
+	unsigned int processNameLength;
 	int validData;
 	// <------------------------------------------------------------
 
